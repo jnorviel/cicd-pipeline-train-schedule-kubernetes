@@ -3,6 +3,7 @@ pipeline {
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "jnorviel/train-schedule"
+        //test
     }
     stages {
         stage('Build') {
